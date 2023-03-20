@@ -1,0 +1,5 @@
+javascript en java
+        import org.openqa.selenium.JavascriptExecutor;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("console.log('a')");
+
